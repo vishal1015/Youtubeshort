@@ -1,9 +1,51 @@
 .header-div{
     width: 100%;
-    height: 100%;
+    height: 60px;
     background-color: rgb(212, 64, 64);
     /* text-align: center; */
     color: white;
     display: flex;
     justify-content: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+.navbar{
+    /* display: flex; */
+    width: 100%;
+    height: 60px;
+    /* border: 2px solid black; */
+}
+nav{
+    box-shadow: 1px 1px 2px black;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav li img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 1px black;
+}
+nav li{
+    padding :0 30px;
+    height: 50px;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    /* align-items: flex-end; */
+
+}
+nav a :hover{
+    background-color: azure;
+}
+nav li:first-child{
+    margin-right: auto;
 }
